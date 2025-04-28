@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nails by Parmeet - Luxury Nail Salon</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Nails by Parmeet</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#book" class="book-btn">Book Appointment</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Elevate Your Style</h2>
+                <p>Where nail artistry meets luxury</p>
+                <a href="#services" class="btn">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story" id="story">
+        <div class="container">
+            <h2 class="section-title">How Nails by Parmeet Came Into Existence</h2>
+            <div class="story-content">
+                <div class="story-image">
+                    <img src="https://placeholder.pics/svg/300x400/FFC0CB-FFDFEF/FFC0CB-FFDFEF" alt="Nail Art">
+                </div>
+                <div class="story-text">
+                    <p>"During the quiet chaos of lockdown, when the world stood still, I found my spark in beauty and self-expression. I immersed myself in the world of nails — studying, practicing, and perfecting. With a certification in hand and dreams in my eyes, I built Nails by Parmeet: a passion turned into artistry, one brushstroke at a time."</p>
+                    <span class="signature">- Parmeet</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Nail Services</h2>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <h3>Nail Anatomy</h3>
+                    <p class="price">₹1000</p>
+                    <div class="service-overlay">
+                        <button class="book-now-btn" data-service="Nail Anatomy">Book Appointment Now</button>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <h3>Nail Prep / Express Manicure</h3>
+                    <p class="price">₹1500</p>
+                    <div class="service-overlay">
+                        <button class="book-now-btn" data-service="Nail Prep / Express Manicure">Book Appointment Now</button>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <h3>Natural Gel Extension</h3>
+                    <p class="price">₹1400</p>
+                    <div class="service-overlay">
+                        <button class="book-now-btn" data-service="Natural Gel Extension">Book Appointment Now</button>
+                    </div>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <h3>French Gel Extension</h3>
+                    <p class="price">₹1600</p>
+                    <div class="service-overlay">
+                        <button class="book-now-btn" data-service="French Gel Extension">Book Appointment Now</button>
+                    </div>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <h3>Inbuilt Glitter / Mylar Extensions in Gel</h3>
+                    <p class="price">₹1800</p>
+                    <div class="service-overlay">
+                        <button class="book-now-btn" data-service="Inbuilt Glitter / Mylar Extensions in Gel">Book Appointment Now</button>
+                    </div>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <h3>Inbuilt Foil Art / Dry Flower Extensions in Gel</h3>
+                    <p class="price">₹2200</p>
+                    <div class="service-overlay">
+                        <button class="book-now-btn" data-service="Inbuilt Foil Art / Dry Flower Extensions in Gel">Book Appointment Now</button>
+                    </div>
+                </div>
+                
+                <!-- Service 7 -->
+                <div class="service-card">
+                    <h3>Natural Acrylic Extension</h3>
+                    <p class="price">₹1600</p>
+                    <div class="service-overlay">
+                        <button class="book-now-btn" data-service="Natural Acrylic Extension">Book Appointment Now</button>
+                    </div>
+                </div>
+                
+                <!-- Service 8 -->
+                <div class="service-card">
+                    <h3>French Acrylic Extension</h3>
+                    <p class="price">₹1800</p>
+                    <div class="service-overlay">
+                        <button class="book-now-btn" data-service="French Acrylic Extension">Book Appointment Now</button>
+                    </div>
+                </div>
+                
+                <!-- More services can be added in the same format -->
+                <!-- Service 9 -->
+                <div class="service-card">
+                    <h3>Inbuilt Glitter / Mylar Extensions in Acrylic</h3>
+                    <p class="price">₹2000</p>
+                    <div class="service-overlay">
+                        <button class="book-now-btn" data-service="Inbuilt Glitter / Mylar Extensions in Acrylic">Book Appointment Now</button>
+                    </div>
+                </div>
+                
+                <!-- Service 10 -->
+                <div class="service-card">
+                    <h3>Inbuilt Foil Art / Dry Flower Extensions in Acrylic</h3>
+                    <p class="price">₹2500</p>
+                    <div class="service-overlay">
+                        <button class="book-now-btn" data-service="Inbuilt Foil Art / Dry Flower Extensions in Acrylic">Book Appointment Now</button>
+                    </div>
+                </div>
+                
+                <!-- Service 11 -->
+                <div class="service-card">
+                    <h3>3D Flowers</h3>
+                    <p class="price">₹2500</p>
+                    <div class="service-overlay">
+                        <button class="book-now-btn" data-service="3D Flowers">Book Appointment Now</button>
+                    </div>
+                </div>
+                
+                <!-- Service 12 -->
+                <div class="service-card">
+                    <h3>Temporary Nail Extension</h3>
+                    <p class="price">₹1000</p>
+                    <div class="service-overlay">
+                        <button class="book-now-btn" data-service="Temporary Nail Extension">Book Appointment Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-more">
+                <a href="#" class="btn" id="view-more-services">View More Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Teaser Section -->
+    <section class="gallery-teaser" id="gallery-teaser">
+        <div class="container">
+            <h2 class="section-title">Our Work</h2>
+            <p class="teaser-text">From everyday elegance to bridal glam — discover it all!</p>
+            
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item">
+                    <img src="https://placeholder.pics/svg/300x300/FFC0CB-FFDFEF/FFC0CB-FFDFEF" alt="Nail Art 1">
+                    <div class="gallery-overlay">
+                        <span>Gel Polish Art</span>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item">
+                    <img src="https://placeholder.pics/svg/300x300/FFDFEF-FFC0CB/FFDFEF-FFC0CB" alt="Nail Art 2">
+                    <div class="gallery-overlay">
+                        <span>French Tips</span>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item">
+                    <img src="https://placeholder.pics/svg/300x300/F8BBD0-FFCDD2/F8BBD0-FFCDD2" alt="Nail Art 3">
+                    <div class="gallery-overlay">
+                        <span>Glitter Design</span>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item">
+                    <img src="https://placeholder.pics/svg/300x300/E1BEE7-D1C4E9/E1BEE7-D1C4E9" alt="Nail Art 4">
+                    <div class="gallery-overlay">
+                        <span>Bridal Nails</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-more">
+                <a href="gallery.html" class="btn">View Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Parmeet is so good and quick with her work. I never miss out on having the nails of my dreams."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <span>- Khushi</span>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"What can I even say about her? Just one word — Perfect. Never gives me a reason to complain."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <span>- Anna</span>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Nails by Parmeet is my go-to for any last-minute nail crisis. One time I had an impromptu event and called Parmeet for a last-minute appointment — she fit me in and delivered 100% as always."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <span>- Manya</span>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"I'll just say one thing: GO & BOOK YOUR APPOINTMENT NOW."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <span>- Lavanya</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>A-24, Indra Park, New Lal Pur Colony, Delhi</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 9318447101</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>nailsbyparmeet@gmail.com</p>
+                    </div>
+                    
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.5376759665!2d77.2!3d28.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM2JzAwLjAiTiA3N8KwMTInMDAuMCJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+                <div class="contact-form" id="book">
+                    <form id="appointment-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="4"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn submit-btn">Book Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Nails by Parmeet</h3>
+                    <p>Where nail artistry meets luxury</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Nails by Parmeet. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Appointment Modal -->
+    <div class="modal" id="appointment-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Book Your Appointment</h2>
+            
+            <div class="modal-body">
+                <form id="modal-appointment-form">
+                    <input type="hidden" id="modal-service" name="service">
+                    
+                    <div class="form-group">
+                        <label for="modal-name">Your Name</label>
+                        <input type="text" id="modal-name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="modal-phone">Phone Number</label>
+                        <input type="tel" id="modal-phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="modal-date">Appointment Date</label>
+                        <input type="date" id="modal-date" name="date" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="modal-time">Appointment Time</label>
+                        <input type="time" id="modal-time" name="time" required>
+                    </div>
+                    
+                    <button type="submit" class="btn submit-btn">Next</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Payment Modal -->
+    <div class="modal" id="payment-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Choose Payment Option</h2>
+            
+            <div class="modal-body">
+                <div class="payment-options">
+                    <button class="payment-option" data-payment="gpay">
+                        <img src="https://placeholder.pics/svg/50x50/FFFFFF-FFFFFF" alt="Google Pay">
+                        <span>Google Pay</span>
+                    </button>
+                    
+                    <button class="payment-option" data-payment="paytm">
+                        <img src="https://placeholder.pics/svg/50x50/FFFFFF-FFFFFF" alt="Paytm">
+                        <span>Paytm</span>
+                    </button>
+                    
+                    <button class="payment-option" data-payment="cash">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <span>Cash</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div class="modal" id="confirmation-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Booking Confirmed!</h2>
+            
+            <div class="modal-body">
+                <div class="confirmation-message">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Your appointment has been successfully booked. We look forward to seeing you!</p>
+                    <button class="btn close-btn">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox for Gallery -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-img" id="lightbox-img">
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
