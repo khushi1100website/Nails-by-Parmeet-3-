@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Nails by Parmeet</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Nails by Parmeet</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="index.html#book" class="book-btn">Book Appointment</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Gallery Hero Section -->
+    <section class="gallery-hero">
+        <div class="container">
+            <h2>Our Nail Art Gallery</h2>
+            <p>Browse through our stunning nail designs and get inspired for your next appointment</p>
+        </div>
+    </section>
+
+    <!-- Gallery Categories -->
+    <section class="gallery-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="category-btn active" data-filter="all">All</button>
+                <button class="category-btn" data-filter="gel">Gel Polish</button>
+                <button class="category-btn" data-filter="acrylic">Acrylic</button>
+                <button class="category-btn" data-filter="extensions">Extensions</button>
+                <button class="category-btn" data-filter="art">Nail Art</button>
+                <button class="category-btn" data-filter="bridal">Bridal</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Gallery -->
+    <section class="main-gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Gel Polish Category -->
+                <div class="gallery-item" data-category="gel">
+                    <img src="https://placeholder.pics/svg/300x300/FFC0CB-FFDFEF/FFC0CB-FFDFEF" alt="Gel Polish 1">
+                    <div class="gallery-overlay">
+                        <span>Chrome Effect Gel Polish</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="gel">
+                    <img src="https://placeholder.pics/svg/300x300/FFDFEF-FFC0CB/FFDFEF-FFC0CB" alt="Gel Polish 2">
+                    <div class="gallery-overlay">
+                        <span>Cat Eye Effect</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="gel">
+                    <img src="https://placeholder.pics/svg/300x300/F8BBD0-FFCDD2/F8BBD0-FFCDD2" alt="Gel Polish 3">
+                    <div class="gallery-overlay">
+                        <span>Glitter Effects</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="gel">
+                    <img src="https://placeholder.pics/svg/300x300/E1BEE7-D1C4E9/E1BEE7-D1C4E9" alt="Gel Polish 4">
+                    <div class="gallery-overlay">
+                        <span>Ombre Effects</span>
+                    </div>
+                </div>
+                
+                <!-- Acrylic Category -->
+                <div class="gallery-item" data-category="acrylic">
+                    <img src="https://placeholder.pics/svg/300x300/D1C4E9-C5CAE9/D1C4E9-C5CAE9" alt="Acrylic 1">
+                    <div class="gallery-overlay">
+                        <span>Natural Acrylic</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="acrylic">
+                    <img src="https://placeholder.pics/svg/300x300/C5CAE9-BBDEFB/C5CAE9-BBDEFB" alt="Acrylic 2">
+                    <div class="gallery-overlay">
+                        <span>French Acrylic</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="acrylic">
+                    <img src="https://placeholder.pics/svg/300x300/BBDEFB-B3E5FC/BBDEFB-B3E5FC" alt="Acrylic 3">
+                    <div class="gallery-overlay">
+                        <span>Glitter Acrylic</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="acrylic">
+                    <img src="https://placeholder.pics/svg/300x300/B3E5FC-B2EBF2/B3E5FC-B2EBF2" alt="Acrylic 4">
+                    <div class="gallery-overlay">
+                        <span>Foil Art Acrylic</span>
+                    </div>
+                </div>
+                
+                <!-- Extensions Category -->
+                <div class="gallery-item" data-category="extensions">
+                    <img src="https://placeholder.pics/svg/300x300/B2EBF2-B2DFDB/B2EBF2-B2DFDB" alt="Extensions 1">
+                    <div class="gallery-overlay">
+                        <span>Natural Gel Extension</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="extensions">
+                    <img src="https://placeholder.pics/svg/300x300/B2DFDB-C8E6C9/B2DFDB-C8E6C9" alt="Extensions 2">
+                    <div class="gallery-overlay">
+                        <span>French Gel Extension</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="extensions">
+                    <img src="https://placeholder.pics/svg/300x300/C8E6C9-DCEDC8/C8E6C9-DCEDC8" alt="Extensions 3">
+                    <div class="gallery-overlay">
+                        <span>Temporary Extension</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="extensions">
+                    <img src="https://placeholder.pics/svg/300x300/DCEDC8-F0F4C3/DCEDC8-F0F4C3" alt="Extensions 4">
+                    <div class="gallery-overlay">
+                        <span>Inbuilt Glitter Extension</span>
+                    </div>
+                </div>
+                
+                <!-- Nail Art Category -->
+                <div class="gallery-item" data-category="art">
+                    <img src="https://placeholder.pics/svg/300x300/F0F4C3-FFF9C4/F0F4C3-FFF9C4" alt="Nail Art 1">
+                    <div class="gallery-overlay">
+                        <span>3D Flowers</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="art">
+                    <img src="https://placeholder.pics/svg/300x300/FFF9C4-FFECB3/FFF9C4-FFECB3" alt="Nail Art 2">
+                    <div class="gallery-overlay">
+                        <span>Foil Paper Effects</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="art">
+                    <img src="https://placeholder.pics/svg/300x300/FFECB3-FFE0B2/FFECB3-FFE0B2" alt="Nail Art 3">
+                    <div class="gallery  alt="Nail Art 3">
+                    <div class="gallery-overlay">
+                        <span>Mylar Effects</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="art">
+                    <img src="https://placeholder.pics/svg/300x300/FFE0B2-FFCCBC/FFE0B2-FFCCBC" alt="Nail Art 4">
+                    <div class="gallery-overlay">
+                        <span>Dry Flower Art</span>
+                    </div>
+                </div>
+                
+                <!-- Bridal Category -->
+                <div class="gallery-item" data-category="bridal">
+                    <img src="https://placeholder.pics/svg/300x300/FFCCBC-D7CCC8/FFCCBC-D7CCC8" alt="Bridal 1">
+                    <div class="gallery-overlay">
+                        <span>Elegant Bridal Set</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="bridal">
+                    <img src="https://placeholder.pics/svg/300x300/D7CCC8-F5F5F5/D7CCC8-F5F5F5" alt="Bridal 2">
+                    <div class="gallery-overlay">
+                        <span>Pearl Bridal Design</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="bridal">
+                    <img src="https://placeholder.pics/svg/300x300/F5F5F5-FAFAFA/F5F5F5-FAFAFA" alt="Bridal 3">
+                    <div class="gallery-overlay">
+                        <span>Gold Accent Bridal</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="bridal">
+                    <img src="https://placeholder.pics/svg/300x300/FAFAFA-FFFFFF/FAFAFA-FFFFFF" alt="Bridal 4">
+                    <div class="gallery-overlay">
+                        <span>Crystal Bridal Set</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Appointment Banner -->
+    <section class="book-banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2>Ready to Transform Your Nails?</h2>
+                <p>Book your appointment today and experience the magic of Nails by Parmeet</p>
+                <a href="index.html#book" class="btn">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Nails by Parmeet</h3>
+                    <p>Where nail artistry meets luxury</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Nails by Parmeet. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox for Gallery -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-img" id="lightbox-img">
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
